@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Mukta, Arial;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -193,7 +193,7 @@ p {
 }
 
 .intro{
-    font-weight: 550;
+    font-weight: 700;
 }
 
 button {
@@ -215,8 +215,8 @@ footer {
     background: #181d06;
     color: #B0B6BC;
     text-align: center;
-    padding: 1rem 0;
-    position: static;
+    height: 70px;
+    position: fixed;
     width: 100%;
     bottom: 0;
     animation: slideIn 1s ease-out;
@@ -224,7 +224,8 @@ footer {
 
 .footers{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
+    padding: 2px;
 }
 
 @media (max-width: 768px) {
